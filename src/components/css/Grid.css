@@ -1,0 +1,52 @@
+.report-grid {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* App.css or a relevant CSS file */
+.ingredient-grid-container {
+    height: 300px;
+    /* Fixed height */
+    width: 100%;
+    /* Full width */
+    overflow: auto;
+    /* Enable scrolling if content overflows */
+    box-sizing: border-box;
+    /* Include padding and borders in the element's total width and height */
+}
+
+.ag-theme-alpine {
+    height: 100%;
+    /* Fill the height of the container */
+    width: 100%;
+    /* Full width */
+}
+
+/* .ag-theme-alpine .ag-row.ag-row-selected {
+    background-color: #d3d3d3 !important;
+    color: black;
+} */
+
+.header-left-align {
+    text-align: left;
+}
+
+.cell-left-align {
+    text-align: left;
+}

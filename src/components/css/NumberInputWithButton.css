@@ -1,0 +1,42 @@
+.number-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.number-input {
+    width: 85%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.number-input-controls {
+    display: flex;
+    flex-direction: row;
+}
+
+.number-input-button {
+    width: 40px;
+    padding: 8px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+.number-input-button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+.number-input-button:not(:disabled):hover {
+    background-color: #d0d0d0;
+}
